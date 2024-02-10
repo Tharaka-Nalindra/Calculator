@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calBody">
+      <div class="cal">
+        <h4 id="display"></h4>
+        <hr />
+        <div class="btnKey">
+          <input type="button" value="7" class="btnNum" onclick="Setnum('7')" />
+          <input type="button" value="8" class="btnNum" onclick="Setnum('8')" />
+          <input type="button" value="9" class="btnNum" onclick="Setnum('9')" />
+          <input
+            type="button"
+            value="+"
+            class="btnNum"
+            onclick="SetOperator('+')"
+          /><br />
+          <input type="button" value="4" class="btnNum" onclick="Setnum('4')" />
+          <input type="button" value="5" class="btnNum" onclick="Setnum('5')" />
+          <input type="button" value="6" class="btnNum" onclick="Setnum('6')" />
+          <input
+            type="button"
+            value="-"
+            class="btnNum"
+            onclick="SetOperator('-')"
+          /><br />
+          <input type="button" value="1" class="btnNum" onclick="Setnum('1')" />
+          <input type="button" value="2" class="btnNum" onclick="Setnum('2')" />
+          <input type="button" value="3" class="btnNum" onclick="Setnum('3')" />
+          <input
+            type="button"
+            value="*"
+            class="btnNum"
+            onclick="SetOperator('*')"
+          /><br />
+          <input type="button" value="c" class="btnNum" onclick="resect()" />
+          <input type="button" value="0" class="btnNum" onclick="Setnum('0')" />
+          <input type="button" value="=" class="btnNum" onclick="getAnswe()" />
+          <input
+            type="button"
+            value="/"
+            class="btnNum"
+            onclick="SetOperator('/')"
+          /><br />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

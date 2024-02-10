@@ -1,0 +1,134 @@
+/* body {
+  background: #000;
+}
+
+h1 {
+  color: #fff;
+}
+h4 {
+  color: #fff;
+  text-align: right;
+}
+
+.calBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  width: 8em;
+  background-color: #c34444;
+}
+
+.btnNum {
+  background-color: #5d5555;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.btnKey {
+  margin: 15px;
+}
+
+.btnNum {
+  border-radius: 5px;
+}
+
+input {
+  outline: none;
+} */
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.calBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  color: #666;
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btnKey {
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  gap: 5px;
+  padding: 10px;
+}
+
+.btnNum {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 40px;
+  height: 60px;
+  margin: 3px;
+}
+
+.btnNum:hover {
+  background-color: #d0d0d0;
+}
+
+.btnOp {
+  background-color: #f06292;
+  color: #fff;
+}
+
+.btnOp:hover {
+  background-color: #d81b60;
+}
+
+input[type="button"] {
+  outline: none;
+}
+
+.btnNum,
+.btnOp {
+  border: none;
+}
+
+.btnClear {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.btnClear:hover {
+  background-color: #d32f2f;
+}
+
+.btnEqual {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btnEqual:hover {
+  background-color: #388e3c;
+}
